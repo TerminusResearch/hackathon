@@ -51,12 +51,12 @@ See also the example strategy in `strategy.py`.
 - Strategies that hold large positions for long periods of time are typically not good trading strategies (e.g. naive HOLDing) and tend to generalize poorly. High frequency of position changes is a good (but not sufficient) indicator. Inspect the corresponding chart regularly (see `playgroung.ipynb`)
 - Think twice about running expensive parameter tuning algorithms as it might be very easy to overfit to the short validation period.
 
-## Submition
+## Submission
 
 - Archive contains 2 files (strategy.py, pyproject.toml). Replace class YourStrategy(Strategy) in strategy.py by your strategy.
-- There is a limit for sumbitions per day (12)
+- There is a limit for submission per day (12)
 - Profit calculation can take up to 15 minutes after sumbition, during this period score will be equal to '-1'
-- There is limitation of submition archive size = 50Mb.
+- There is limitation of submission archive size = 50Mb.
 
 
 ## Evaluation
