@@ -58,7 +58,6 @@ See also the example strategy in `strategy.py`.
 - Profit calculation can take up to 15 minutes after submission, during this period score will be equal to '-1'
 - There is limitation of submission archive size = 50Mb.
 
-
 ## Evaluation
 
 The key metric is `profit` at the end of the trading window (see for example `evaluation_script.py`). This will determine the winner of the hackathon assuming no irregularities (access to external data, tampering with the simulator etc.) in the submitted code are found.
