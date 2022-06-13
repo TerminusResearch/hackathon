@@ -53,6 +53,8 @@ See also the example strategy in `strategy.py`.
 
 ## Evaluation
 
+There is a limit for submission per day (12). Profit calculation takes some time after uploading. There is limitation of submission archive size = 50Mb.
+
 The key metric is `profit` at the end of the trading window (see for example `evaluation_script.py`). This will determine the winner of the hackathon assuming no irregularities (access to external data, tampering with the simulator etc.) in the submitted code are found.
 
 For the purposes of hiring to Terminus Research, we will pay much greater attention to the inventiveness, technical quality of implementation, and overall robustness of the strategy. Feel free to submit additional models you developed as well. If your strategy looks great to us but got "unlucky" in the testing period, we will contact you!
