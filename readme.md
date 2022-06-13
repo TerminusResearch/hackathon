@@ -53,7 +53,7 @@ See also the example strategy in `strategy.py`.
 
 ## Submission
 
-- Archive contains 2 files (strategy.py, pyproject.toml). Replace class YourStrategy(Strategy) in strategy.py by your strategy.
+- Archive contains 2 files (strategy.py, pyproject.toml). Replace class YourStrategy(Strategy) in strategy.py by your strategy. Optionally a directory called tools which containts additional python scripts needed in strategy.py
 - There is a limit for submission per day (12).
 - Profit calculation takes some time after uploading. 
 - There is limitation of submission archive size = 50Mb.
