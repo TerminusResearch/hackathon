@@ -51,13 +51,6 @@ See also the example strategy in `strategy.py`.
 - Strategies that hold large positions for long periods of time are typically not good trading strategies (e.g. naive HOLDing) and tend to generalize poorly. High frequency of position changes is a good (but not sufficient) indicator. Inspect the corresponding chart regularly (see `playgroung.ipynb`)
 - Think twice about running expensive parameter tuning algorithms as it might be very easy to overfit to the short validation period.
 
-## Submission
-
-- Archive contains 2 files (strategy.py, pyproject.toml). Replace class YourStrategy(Strategy) in strategy.py by your strategy.
-- There is a limit for submission per day (12).
-- Profit calculation takes some time after uploading. 
-- There is limitation of submission archive size = 50Mb.
-
 ## Evaluation
 
 The key metric is `profit` at the end of the trading window (see for example `evaluation_script.py`). This will determine the winner of the hackathon assuming no irregularities (access to external data, tampering with the simulator etc.) in the submitted code are found.
