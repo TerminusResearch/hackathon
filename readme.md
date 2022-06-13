@@ -10,7 +10,7 @@
 
 Run the following in your shell after downloading the code and unzipping
 ```
-cd TR_hackathon
+cd hackathon
 poetry install
 ```
 
