@@ -97,7 +97,7 @@ The evaluation will proceed as follows:
 There will be a limit of 90 minutes on training and 2 hours on the evaluation of the simulator, on a computer with 32GB RAM.
 
 ```
-cd TR_hackathon
+cd hackathon
 poetry install
 poetry shell
 python evaluation_script.py
