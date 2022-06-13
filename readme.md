@@ -54,8 +54,8 @@ See also the example strategy in `strategy.py`.
 ## Submission
 
 - Archive contains 2 files (strategy.py, pyproject.toml). Replace class YourStrategy(Strategy) in strategy.py by your strategy.
-- There is a limit for submission per day (12)
-- Profit calculation can take up to 15 minutes after submission, during this period score will be equal to '-1'
+- There is a limit for submission per day (12).
+- Profit calculation takes some time after uploading. 
 - There is limitation of submission archive size = 50Mb.
 
 ## Evaluation
