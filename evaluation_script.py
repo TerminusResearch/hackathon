@@ -2,6 +2,7 @@ import datetime
 
 from simulator import Simulator
 from strategy import YourStrategy
+from strategy import MeanReversionStrategy
 from util import call_with_timeout
 
 # Do not edit this code!

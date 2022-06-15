@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 
 from typing import Optional
 
-
 class Strategy(ABC):
 
     @abstractmethod
@@ -17,7 +16,7 @@ class Strategy(ABC):
         return None  # If None is returned, no action is executed
 
 
-class YourStrategy(Strategy):
+class MeanReversionStrategy(Strategy):
     required_rows = 2*24*60   # minutes of data to be fed to model.
 
     def compute_target_position(self, current_data: pd.DataFrame, current_position: float) -> Optional[float]:
@@ -28,3 +27,14 @@ class YourStrategy(Strategy):
 
         return target_position
 
+
+class YourStrategy(Strategy):
+    required_rows = 2*24*60
+
+    def init(self):
+        training_data = pd.read_pickle("data/train_data.pickle")
+        ...  # Use historical data to develop strategy, maybe train an ml_model etc.
+        pass
+
+    def compute_target_position(self, current_data: pd.DataFrame, current_position: float) -> Optional[float]:
+        pass  # produce inputs to model from datafram, compute predictions and submit new target position
