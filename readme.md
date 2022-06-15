@@ -48,7 +48,7 @@ See also the example strategy in `strategy.py`.
 
 - The simulator can be executed also for earlier periods for more careful validation of your strategies.
 - Positions held can also be negative.
-- Strategies that hold large positions for long periods of time are typically not good trading strategies (e.g. naive HOLDing) and tend to generalize poorly. High frequency of position changes is a good (but not sufficient) indicator. Inspect the corresponding chart regularly (see `playgroung.ipynb`)
+- Strategies that hold large positions for long periods of time are typically not good trading strategies (e.g. naive HODLing) and tend to generalize poorly. High frequency of position changes is a good (but not sufficient) indicator. Inspect the corresponding chart regularly (see `playgroung.ipynb`)
 - Think twice about running expensive parameter tuning algorithms as it might be very easy to overfit to the short validation period.
 
 ## Evaluation
