@@ -33,7 +33,7 @@ class YourStrategy(Strategy):
     required_rows = ...  # Specify how many minutes of data are required for live prediction
 
     def __init__(self):
-        training_data = pd.read_pickle("data/data_train.pickle")
+        training_data = pd.read_pickle("data/train_data.pickle")
         ...  # Use historical data to develop strategy, maybe train an ml_model etc.
         pass
 
