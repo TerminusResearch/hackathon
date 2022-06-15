@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 
 from typing import Optional
 
+
 class Strategy(ABC):
 
     @abstractmethod
@@ -29,10 +30,10 @@ class MeanReversionStrategy(Strategy):
 
 
 class YourStrategy(Strategy):
-    required_rows = 2*24*60
+    required_rows = ...  # Specify how many minutes of data are required for live prediction
 
-    def init(self):
-        training_data = pd.read_pickle("data/train_data.pickle")
+    def __init__(self):
+        training_data = pd.read_pickle("data/data_train.pickle")
         ...  # Use historical data to develop strategy, maybe train an ml_model etc.
         pass
 
