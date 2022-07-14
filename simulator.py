@@ -35,7 +35,7 @@ class Simulator(object):
 
             target_position = self.model.compute_target_position(current_data, current_position)
 
-            if not target_position:
+            if target_position is None:
                 continue
 
             self.execute_order(target_position, timestamp, current_volume, current_price, current_position)
